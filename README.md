@@ -1,5 +1,7 @@
 # wping
 
+[![Build Status](https://travis-ci.org/aduth/wping.svg?branch=master)](https://travis-ci.org/aduth/wping)
+
 wping is a zero-dependency WordPress nonce refresh utility weighing in at less than 600 bytes. It works both in the browser and in Node. In typical usage, it's plug-and-play, detecting and updating the nonce value of [the `wpApiSettings` window global](https://developer.wordpress.org/rest-api/using-the-rest-api/authentication/) assigned when using either the [Backbone client](https://developer.wordpress.org/rest-api/using-the-rest-api/backbone-javascript-client/) or `wp-api-request` scripts.
 
 ## Getting Started
