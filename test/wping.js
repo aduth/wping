@@ -5,7 +5,7 @@ const sinon = require( 'sinon' );
 const wping = require( '../src/wping' );
 
 global.XMLHttpRequest = function() {};
-XMLHttpRequest.prototype = {
+global.XMLHttpRequest.prototype = {
 	open: sinon.stub()
 		.callsFake( function( method, url ) {
 			this.url = url;

@@ -1,5 +1,10 @@
 {
-	"parserOptions": {
-		"ecmaVersion": 5
+	"root": true,
+	"extends": "@aduth/eslint-config/es5",
+	"env": {
+		"node": true
+	},
+	"globals": {
+		"XMLHttpRequest": true
 	}
 }
